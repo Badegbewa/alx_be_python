@@ -1,7 +1,7 @@
 
 #This script asks users for about weather and give clothing recommendations.
 
-weather = input("What's the waether like today? (sunny/rainy/cold): ").lower()
+weather = input("What's the weather like today? (sunny/rainy/cold): ").lower()
 print()
 
 if weather == "sunny":
