@@ -19,7 +19,7 @@ def main():
             item = ("Enter the item to remove: ").strip()
             if item in shopping_list:
                 shopping_list.remove(item)
-                print(f"{item} has been removed from list.")
+                print(f"{item} has been removed from the list.")
             else:
                 print(f"{item} not found in the list.")
         elif choice == "3":
