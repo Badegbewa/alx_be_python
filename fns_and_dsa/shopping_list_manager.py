@@ -13,8 +13,12 @@ def main():
 
         if choice == "1":
             item = ("Enter the item to add: ").strip()
-            shopping_list.append(item)
-            print(f"{item} has been added to the list.")
+            if item:
+                shopping_list.append(item)
+                print(f"{item} has been added to the list.")
+            else:
+                print("Please enter a valid item name")
+
         elif choice == "2":
             item = ("Enter the item to remove: ").strip()
             if item in shopping_list:
